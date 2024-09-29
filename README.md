@@ -32,7 +32,7 @@ The HumanGPTz is a Python application that uses natural language processing tech
    python -m spacy download en_core_web_sm
    ```
 
-4. Download nltk
+4. Download nltk:
     ```
     python3 -m nltk.downloader all
     ```
