@@ -94,7 +94,7 @@ class TextHumanizerApp(QWidget):
         self.output_text.setReadOnly(True)
         layout.addWidget(self.output_text)
         self.setLayout(layout)
-        self.setWindowTitle('Advanced Text Humanizer - htdark.com [ L S D e e p V 1.0]')
+        self.setWindowTitle('HumanGPTz - htdark.com [ LSDeep - v 1.0]')
         self.setGeometry(300, 300, 500, 400)
     def on_humanize(self):
         input_text = self.input_text.toPlainText()
